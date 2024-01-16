@@ -14,28 +14,19 @@ This API allows you to interact with our service to fetch and analyze GitHub rep
 1. Clone the repository to your local machine:
 git clone [URL of the repository]
 
-css
-Copy code
-
 2. Navigate to the cloned repository:
 cd [repository name]
 
-markdown
-Copy code
 
 3. Install the required dependencies:
 pip install -r requirements.txt
 
-bash
-Copy code
 
 ### Running the Application
 
 To run the application, execute the following command in the root directory of the project:
 python main.py
 
-markdown
-Copy code
 This will start the Flask server, and the API will be accessible at `http://localhost:5000/api`.
 
 ### Optional Authentication
@@ -53,8 +44,7 @@ To increase the number of possible API requests, you can create a file named aut
 - **Example Request**:
 curl http://localhost:5000/api/statistics?repository_name=[repository name]
 
-markdown
-Copy code
+
 - **Response**: A JSON object containing the statistics of the requested repository.
 
 ## Error Handling
